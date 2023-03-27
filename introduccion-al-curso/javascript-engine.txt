@@ -1,0 +1,12 @@
+JavaScript ENgine se traduce como el motor de JavaScript
+Este motor de JavaScript siempre corre en el navegador.
+Cuando tenemos un conjunto de tareas ordenado (programa) con JS cuando se envía desde el servidor
+hacia el cliente, la maquina debe entender lo que dice el archivo de JS.
+Pero la computadora sabe hablar machine code y JS no posee machine code, entonces
+no podran entenderse o lograrse que la maquina haga lo el archivo .js dice, entonces
+debemos hacer que la maquina pueda interpretar ese codigo JS, es ahi cuando aparece JavaScript Engine.
+El motor de JS va a funcionar un interprete de por medio entre la maquina y el archivo JS.
+Sera el encargado de interpretar lo que dice el archivo JS para poderselo comunicar a la maquina
+Cuando el navegador recibe el codigo JS lo que hace el navegador es interpretar el codigo JS para comunicarselo
+a la maquina en machine code. Este proceso se conoce como Just In Time Compiler (JIT Compiler).
+Es el proceso de compilacion en tiempo real.
