@@ -1,0 +1,8 @@
+Es el motor de JavaScript de Chrome.
+
+V8 no es el unico motor de JavaScript que existe, practicamente cada navegador que existe tiene un motor diferente.
+El motor V8 de JavaScript corre muy bien JavaScript es muy estable y puede correrlo mas rapido. Tambien el motor de JavaScript es Open Source.
+Varios navegadores se estan migrando a V8.
+
+¿Porque nace V8?
+Por Google Maps. En ese momento Google tenia Google Maps y corria en otros navegadores pero no corria muy bien. Entonces creo Chrome para Google Maps pudiera correr mas rapido. Entonces crearon un motor de JS para que Chrome en Google Maps corriera más rapido. Luego como observaron que V8 estaba corriendo bastante bien JS comenzaron a hacer mas robusto V8 para que se pudieran realizar aplicaciones con mucha mas interaccion. Entonces gracias a V8, podes hacer paginas mas robustas con JS.
