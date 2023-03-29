@@ -1,0 +1,11 @@
+una vez que corre nuestro archivo de JS en el engine, antes de empezar a traducirlo, lo primero que hace en el navegador es:
+Generar un entorno global: este entorno global hace tres cosas:
+  + Generar el objeto global (Global Object) que se le llama "window" en el navegador.
+  + Generar una variable que se llama "this". this = Object Global = window.
+  + Entorno Exterior (Outer Enviroment). A modo de ejemplo, cuando se realiza una llamada de función, se crea un nuevo entorno. El entorno exterior de ese entorno es el entorno en el que se creó la función.
+Una vez que genera el entorno global, corre el codigo JS, esto lo ejecuta en algo llamado: Entorno de Ejecución, donde se va a ejecutar nuestro codigo JS. Esta parte de correr el codigo JS lo hace a traves de un stack de tareas
+
+Lo primero que hace el engine con el navegador es:
+  1. Parsear el codigo JS a una AST (Abstract Sintax Tree) Arbol de Sintaxis Abstracta.
+  2. Le envia este AST a un interprete para que lo traduzca a byte code. byte code no es tan bajo como machine code o codigo binario.
+    + en el interprete, si se da cuenta que hay mucho codigo JS o hay algo que se pueda optimizar, entra el "profile" (monitor) que nos ayuda a optimizar ese codigo, y una vez optimizado este codigo, lo compila y lo regresa como Byte Code. En este proceso de oprimizacion de AST es donde entra el Hoisting.
