@@ -1,0 +1,6 @@
+No es que JS sea asincrono de inicio hay ciertas cosas que nos dan ese comportameinto.
+por ejemplo si tuvieramos en nuestro call stack un setTimeout, lo que haria JS seria frenar, y decir "esto no me corresponde a mi" y se lo da al navegador para que él lo ejecute, porque Timeout es una api que tiene setTimeout, es una API del navegador. En tiempos paralelos JS sigue haciendo sus funciones que vienen del call stack y el navegador seguira ejecutando la funciones setTimeout.
+El navegador una vez que la termine de trabajar a la función la va a poner en un callBack Queue, que es como una bandeja de espera que espera a que el call stack este vacio para que vaya al call stack.
+¿Como es esa conexion entre el callBack Queue y el call stack?
+Gracias a un Event Loop, éste le va a estar preguntando al call stack si esta vacio o no, en caso de que si, va "shiftiendo" extrayendo del principio las funciones de la cola (callBack Queue)
+
