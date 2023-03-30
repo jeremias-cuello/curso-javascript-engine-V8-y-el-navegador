@@ -1,0 +1,8 @@
+JavaScript es sincrono, hace una tarea a la vez. JavaScript Runtime es justamente este proceso.
+
+una vez que inicia el proceso de ejecucion del codigo JS lo primero que se hace es guardar todas las variables y funciones en el memori heap luego se procede realizarse el call-stack.
+Esto se hace en este orden porque cuando ejecutamos alguna funcion del call stack, alguna llamada de alguna funcion o una funcion, ésta ya esta guardada en el memory Heap.
+Esto empieza a generar interaccion con el navegador. Y hay algunas APIs que nos ayudan con esa interaccion, una de ellas puede ser el:
+  + DOM(document)
+  + AJAX (XMLHttpRequest)
+  + Timeout(setTimeout)
