@@ -3,8 +3,6 @@ El memory heap es el lugar en donde se guardan los valores de las variables y la
 Single Trhead (Synchronous)
 Esto quiere decir que JS puede hacer una tarea a la vez, no mas. Tiene su ventajas y sus desventajas.
 
-Memory Heap
-
 En el proceso del codigo de ejecución hay dos cosas muy importantes:
 Memory Heap y Call Stack
 
