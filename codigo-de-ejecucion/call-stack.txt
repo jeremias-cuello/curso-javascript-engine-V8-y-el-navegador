@@ -1,0 +1,6 @@
+Determina como se va a comportar nuestro codigo
+Es un pila de tareas donde las tareas se van a apilar de abajo hacia arriba.
+
+para ir ejecutandolas imaginemos un cilinndro con una tapa donde la primera tarea es el object global, luego nuestras funciones nativas se van apilando sobre ella. se ira ejecutando a la ultima tarea que se añadio en el call stack y luego la siguiente y la siguiente, etc.
+
+a esto se le llama asincronia que quiere decir que Js trabaja una tarea a la vez
