@@ -1,0 +1,11 @@
+Recollecion de basura.
+Hay lenguajes de programacion en los que debes generar el garbage collection y determinar cuando vas a estar recolectando la basura de variables y funciones, de cosas que ya no ocupas.
+
+¿como se hace con JS?
+JS nos ayuda mucho con el garbage collection.
+JS utiliza una tecnica para el garbage collection mark and sweep (marcar y barrer).
+JS incluye una herramienta de software conocida como "recolector de basura" (garbage collector), cuya función es rastrear (mark) las reservas de memoria y su utilización, para así encontrar cuándo cierta parte de la memoria ya no es necesaria, y en su momento liberarla automáticamente (sweep). Este proceso es sólo una aproximación al problema general de saber cuándo una parte de la memoria ya no es necesaria, ya que éste es indecidible (no puede ser resuelto por un algoritmo).
+
+Existen varios algoritmos de Garbage Collection, mark and sweep es uno de ellos, hay previos
+y posteriores, actualmente se utilizan los posteriores que son crecimientos de mark and sweep. los posteriores ya no se utilizan por presentar problemas que puedieron ser solucionados por mark and sweep. https://developer.mozilla.org/es/docs/Web/JavaScript/Memory_Management
+
