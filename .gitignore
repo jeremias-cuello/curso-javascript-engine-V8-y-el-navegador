@@ -1,3 +1,5 @@
 introduccion-al-curso/JIT.png
 javascript-engine/interacciones-motor-navegador.png
-codigo-de-ejecucion/call-stack.png
+codigo-de-ejecucion/call-stack/call-stack.png
+codigo-de-ejecucion/garbage-collection/img-mark-and-sweep/mark.png
+codigo-de-ejecucion/garbage-collection/img-mark-and-sweep/sweep.png
