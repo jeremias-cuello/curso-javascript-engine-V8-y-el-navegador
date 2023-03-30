@@ -1,0 +1,5 @@
+su significado viene de call-stack
+el call stack es la pila de las llamadas a funciones que vamos a ejecutar, cuando ninguna de ellas tiene que llamar a otras se termina de apilar, allí empezaremos a ejecutar las funciones desde arriba hacia abajo, pero...
+
+¿que pasaría si se desborda la pila? ¿cómo lo haría?
+estariamos crasheando el navegador. Antes Chrome se cerraba cuando llenes todas el call-stack porque no permitia poder ejecutar alguna otra cosa más. Chrome ahora puede determinar que si cierto programa hace un cierto numero de peticiones o llamados que puedan que te lleven a un stack overflow deja de ejecutar ese codigo.
